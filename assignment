@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <style >
+    div{float: left;
+      padding: 15 px;
+      margin:5%}
+      div #float{float: top right;
+        padding: 2px;
+      }
+    div.box1{
+  width: 20%;
+  border: 3px solid #73AD21;
+  padding: 10px; 
+background: grey;}
+      Div.box11{position: absolute top right; border: solid black 2px; background-color: pink; color: darkviolet;}
+      div.box2{
+  width: 20%;
+  border: 3px solid #73AD21;
+  padding: 10px;background: grey }
+        div.box21{position: absolute top right; border: solid black 2px; background-color: pink; color: darkviolet;}
+        div.box3{
+  width: 20%;
+  border: 3px solid #73AD21;
+  padding: 10px; background: grey}
+      div.box31{position: absolute top right; border: solid black 2px; background-color: pink; color: darkviolet;}
+      h2{text-align: center; font-style:oblique; font-weight: bold;}
+  </style>
+</head>
+<body>
+  <h2> Our Menu </h2>
+  <div>
+  <div class="box1"> 
+    <div id= "float"><div class="box11">Chicken</div></div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. 
+
+  </div>
+  <div class="box2">
+    <div id ="float"><div class="box21">Beef</div></div>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. 
+
+  </div>
+  <div class="box3">
+    <div id ="float"><div class="box31">Sushi</div></div>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. 
+  </div>
+</div>
+</body>
+</html>
